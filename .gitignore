@@ -1,4 +1,7 @@
-./docker
+docker/
+docker/mysql
+docker/mysql8
+
 
 ./src
 ./pkg

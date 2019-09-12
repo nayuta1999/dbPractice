@@ -20,5 +20,8 @@ services:
             - MYSQL_DATABASE=sample
         volumes:
             - ./docker/mysql8:/var/lib/mysql
+            - ./my.cnf:/etc/mysql/conf.d/my.cnf
         ports:
             - "33060:3306"
+        expose:
+            - 33060
