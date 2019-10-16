@@ -19,7 +19,7 @@ services:
             - MYSQL_PASSWORD=sample
             - MYSQL_DATABASE=sample
         volumes:
-            - ./docker/mysql:/var/lib/mysql
+            - ./docker/mysql55:/var/lib/mysql
         ports:
             - "33065:3306"
     mysql80:
